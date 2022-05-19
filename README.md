@@ -1,13 +1,6 @@
 # dns-zone-configurator
 
-[![Latest Stable Version](https://poser.pugx.org/golding/dns-zone-configurator/version)](https://packagist.org/packages/golding/dns-zone-configurator) 
-[![Total Downloads](https://poser.pugx.org/golding/dns-zone-configurator/downloads)](https://packagist.org/packages/golding/dns-zone-configurator)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/LTD-Beget/dns-zone-configurator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/LTD-Beget/dns-zone-configurator/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/LTD-Beget/dns-zone-configurator/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/LTD-Beget/dns-zone-configurator/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/LTD-Beget/dns-zone-configurator/badges/build.png?b=master)](https://scrutinizer-ci.com/g/LTD-Beget/dns-zone-configurator/build-status/master)
-[![Documentation](https://img.shields.io/badge/code-documented-brightgreen.svg)](http://golding.github.io/dns-zone-configurator/documentation/html/index.html)
-[![Documentation](https://img.shields.io/badge/code-coverage-brightgreen.svg)](http://golding.github.io/dns-zone-configurator/coverage/)
-[![License MIT](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/LTD-Beget/dns-zone-configurator/blob/master/LICENSE)
+[![Latest Stable Version](http://poser.pugx.org/golding/dns-zone-configurator/v)](https://packagist.org/packages/golding/dns-zone-configurator) [![Total Downloads](http://poser.pugx.org/golding/dns-zone-configurator/downloads)](https://packagist.org/packages/golding/dns-zone-configurator) [![Latest Unstable Version](http://poser.pugx.org/golding/dns-zone-configurator/v/unstable)](https://packagist.org/packages/golding/dns-zone-configurator) [![License](http://poser.pugx.org/golding/dns-zone-configurator/license)](https://packagist.org/packages/golding/dns-zone-configurator) [![PHP Version Require](http://poser.pugx.org/golding/dns-zone-configurator/require/php)](https://packagist.org/packages/golding/dns-zone-configurator)
 
 
 Php library for parsing and editing dns zones files programmatically with high level abstraction.
