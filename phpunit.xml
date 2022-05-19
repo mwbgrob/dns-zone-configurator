@@ -18,7 +18,7 @@
     </testsuites>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">./src/LTDBeget/dns</directory>
+            <directory suffix=".php">./src/Golding/dns</directory>
         </whitelist>
     </filter>
 </phpunit>

@@ -1,0 +1,1 @@
+{"version":1,"defects":{"tests\\ExampleTest::testZone":5,"tests\\ExampleTest::testNodeNames":4,"tests\\ExampleTest::testNodeNamesNumeric":4},"times":{"tests\\ExampleTest::testZone":0.027,"tests\\ExampleTest::testNodeNames":0.001,"tests\\ExampleTest::testNodeNamesNumeric":0}}

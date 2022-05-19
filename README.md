@@ -1,12 +1,12 @@
 # dns-zone-configurator
 
-[![Latest Stable Version](https://poser.pugx.org/ltd-beget/dns-zone-configurator/version)](https://packagist.org/packages/ltd-beget/dns-zone-configurator) 
-[![Total Downloads](https://poser.pugx.org/ltd-beget/dns-zone-configurator/downloads)](https://packagist.org/packages/ltd-beget/dns-zone-configurator)
+[![Latest Stable Version](https://poser.pugx.org/golding/dns-zone-configurator/version)](https://packagist.org/packages/golding/dns-zone-configurator) 
+[![Total Downloads](https://poser.pugx.org/golding/dns-zone-configurator/downloads)](https://packagist.org/packages/golding/dns-zone-configurator)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/LTD-Beget/dns-zone-configurator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/LTD-Beget/dns-zone-configurator/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/LTD-Beget/dns-zone-configurator/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/LTD-Beget/dns-zone-configurator/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/LTD-Beget/dns-zone-configurator/badges/build.png?b=master)](https://scrutinizer-ci.com/g/LTD-Beget/dns-zone-configurator/build-status/master)
-[![Documentation](https://img.shields.io/badge/code-documented-brightgreen.svg)](http://ltd-beget.github.io/dns-zone-configurator/documentation/html/index.html)
-[![Documentation](https://img.shields.io/badge/code-coverage-brightgreen.svg)](http://ltd-beget.github.io/dns-zone-configurator/coverage/)
+[![Documentation](https://img.shields.io/badge/code-documented-brightgreen.svg)](http://golding.github.io/dns-zone-configurator/documentation/html/index.html)
+[![Documentation](https://img.shields.io/badge/code-coverage-brightgreen.svg)](http://golding.github.io/dns-zone-configurator/coverage/)
 [![License MIT](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/LTD-Beget/dns-zone-configurator/blob/master/LICENSE)
 
 
@@ -15,14 +15,14 @@ Php library for parsing and editing dns zones files programmatically with high l
 ## Installation
 
 ```shell
-composer require ltd-beget/dns-zone-configurator
+composer require golding/dns-zone-configurator
 ```
 
 ## Usage
 
 ```php
 <?php
-    use LTDBeget\dns\configurator\Zone;
+    use Golding\dns\configurator\Zone;
     
     require './vendor/autoload.php';
     

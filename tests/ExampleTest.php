@@ -7,7 +7,7 @@
 
 namespace tests;
 
-use LTDBeget\dns\configurator\Zone;
+use Golding\dns\configurator\Zone;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -18,10 +18,13 @@ class ExampleTest extends TestCase
     public function testZone()
     {
         $data = file_get_contents(__DIR__ . '/../dns/zones/zone.conf');
+        var_dump($data);
         $zone = Zone::fromString('voksiv.ru.', $data);
+        var_dump($zone);
         $zone->toArray();
+        var_dump($zone);
         $zone = Zone::fromString('voksiv.ru.', (string)$zone);
-        $zone->validate();
+        var_dump($zone->validate());
     }
 
     public function testNodeNames()

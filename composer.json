@@ -1,5 +1,5 @@
 {
-  "name": "ltd-beget/dns-zone-configurator",
+  "name": "golding/dns-zone-configurator",
   "license": "MIT",
   "type": "library",
   "description": "Php library for parsing and editing dns zones files programmatically with high level abstraction.",
@@ -11,27 +11,31 @@
     {
       "name": "Viskov Sergey",
       "homepage": "https://github.com/voksiv"
+    },
+    {
+      "name": "Marco Grob",
+      "homepage": "https://github.com/mwbgrob"
     }
   ],
   "require": {
-    "php": ">=7.0",
-    "marc-mabe/php-enum" : "~2.2",
-    "zendframework/zend-validator" : "~2.7",
-    "ltd-beget/dns-zone-tokenizer": "~0.0.6"
+    "php": ">=8.0",
+    "marc-mabe/php-enum" : ">=2.2,<5",
+    "laminas/laminas-validator" : "~2.14",
+    "golding/dns-zone-tokenizer": "~v1"
   },
   "require-dev": {
     "theseer/phpdox": "~0.8",
-    "phpunit/phpunit": "~7.3",
+    "phpunit/phpunit": "~8.1",
     "tideways/profiler": "~2.0"
   },
   "autoload": {
     "psr-0": {
-      "LTDBeget\\dns": "src"
+      "Golding\\dns": "src"
     }
   },
   "autoload-dev": {
     "psr-0": {
-      "LTDBeget\\dev": "src"
+      "Golding\\dev": "src"
     }
   }
 }
